@@ -173,8 +173,8 @@ def max_IJ(Kwav):
     J = index[1] # col.
     return [I,J,M]   
 
-def plot_ffts(sig, sig_opt, opt_dict, fs, mfb=None, boundaries=None, figsize = (3.5, 1.8), dpi = 144,
-             fig_save_path= None, fig_format = 'png', fontsize = 8, linewidth=1, non_text = False ):
+def plot_ffts(sig, sig_opt, opt_dict, fs, mfb=None, boundaries=None, figsize = (3.5, 1.8), dpi = 144, 
+             blabel=['b0', 'b1'], fig_save_path= None, fig_format = 'png', fontsize = 8, linewidth=1, non_text = False ):
     """
     plot the fft of the original signal and the filtered optimal signal
     
@@ -218,7 +218,7 @@ def plot_ffts(sig, sig_opt, opt_dict, fs, mfb=None, boundaries=None, figsize = (
         for i in range(len(boundaries)):
             b_x = boundaries[i] * np.ones(10)
             b_y = np.linspace(0, 1, 10)
-            plt.plot(b_x, b_y, style_b[i], label = 'b' + str(i+1), linewidth=linewidth)
+            plt.plot(b_x, b_y, style_b[i], label =blabel[i], linewidth=linewidth)
     
     plt.rc('font', size = fontsize)
 
