@@ -5,11 +5,11 @@ This repository provides the proposed dynamic bandit tree search method together
 The codes are based on the paper entitled _" Intelligent Fault Informative Frequency Band Search for Machinery Fault Diagnosis Assisted by A Dynamic Bandit Tree Method"_, which has been submitted to IEEE/ASME TRANSACTIONS ON MECHATRONICS for peer reviews. 
 
 ## 1 Key Requirements
-    numpy ='1.21.5'
-    matplotlib = '3.5.1'
-    tqdm = '4.46.0'
-    scipy = '1.7.3'
-    torch = '1.7.1' (for pytorch svmd only)
+    numpy = 1.21.5
+    matplotlib = 3.5.1
+    tqdm = 4.46.0
+    scipy = 1.7.3
+    torch = 1.7.1 (for pytorch svmd only)
 
 ## 2 Current Methods
 
@@ -27,7 +27,7 @@ Note that the diagnosis methods provided here can also be optimized by other opt
     (3) empricial wavelet transform (Meyer filters)
     (4) 1/3-binary tree (fast kurtogram and its variants).  
 
-### 3) Fault Indexes (dbtpy->funs->fun_diag.py)
+### 3) Fault Indexes (dbtpy->findexes)
     Currently, the fault indexes include:
     (1) Kurtosis and its variants
     (2) Smoothness index
@@ -49,7 +49,7 @@ Many of the indexes can be easily used to replace the kurtosis in fast kurtogram
 
 ## 3 Tutorial Guide
 
-Tutorial guides will be provided in the Jupyter notebook files later. 
+More tutorials will be provided in the Jupyter notebook files later. 
 
 
 
