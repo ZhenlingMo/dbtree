@@ -40,7 +40,7 @@ Note that the diagnosis methods provided here can also be optimized by other opt
         cyclic harmonic to noise ratio,
         harmonic L2/L1 norm, 
         and harmonic kurtosis)
-Many of the indexes can be easily used to replace the kurtosis in fast kurtogram, resulting in the so-called findexgram method. Changing the fault index and the calcuation domain is simply a matter of one line of codes. The calculation domains include the envolope, squared envolope, squared envolope spectrum, etc. In addition, the fault indexes can be utilized as the fitness function of the optimization algorithms. Finally, common test functions are also provided in fun_2dim.py and fun_ndim.py.
+Many of the indexes can be easily used to replace the kurtosis in fast kurtogram, resulting in the so-called fault-indexgram (findexgram) method. Changing the fault index and the calcuation domain is simply a matter of one line of codes. The calculation domains include the envolope, squared envolope, squared envolope spectrum, etc. In addition, the fault indexes can be utilized as the fitness function of the optimization algorithms. Finally, common test functions are also provided in fun_2dim.py and fun_ndim.py.
 
 ### 4) Useful Tools (dbtpy->tools)
     Currently, the useful tools include
