@@ -44,10 +44,19 @@ Many of the indexes can be easily used to replace the kurtosis in fast kurtogram
 
 ### 4) Useful Tools (dbtpy->tools)
     Currently, the useful tools include
-    (1) Preprocessing tools (prepro_tools.py): detrend, pre-whiten, fault characteristic frequency calculations of bearing and gear. 
-    (2) Time/ frequency tools (time_freq_tools.py): plot different styles of figures of signal in time and frequency domains.
-    (3) File tools (file_tools.py): save and read important contents based on txt files. 
-    (4) Visualization tools  (visual_tools.py): visualize the demodulation spectrum, the heatmap of findexgram, the fitness curve, the tree structure, etc.. 
+    (1) Preprocessing tools (prepro_tools.py): 
+        detrend, 
+        pre-whiten,
+        fault characteristic frequency calculations of bearing and gear. 
+    (2) Time/ frequency tools (time_freq_tools.py): 
+        plot different styles of figures of signal in time and frequency domains.
+    (3) File tools (file_tools.py): 
+        save and read important contents based on txt files. 
+    (4) Visualization tools  (visual_tools.py): 
+        visualize the demodulation spectrum, 
+        the heatmap of findexgram,
+        the fitness curve,
+        the tree structure, etc.. 
     (5) Some other tools. 
 
 ## 3 Tutorial Guide
