@@ -1,5 +1,5 @@
 # This repo has been transferred 
-see https://github.com/mozhenling/dbtree for latest version and it will not be maintained here. Thanks. 
+see https://github.com/mozhenling/dbtree for the latest version and it will not be maintained here. Thanks. 
 
 # DBtree Python Package for Machinery Fault Envolope Analysis  
 
