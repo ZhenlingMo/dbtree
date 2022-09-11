@@ -1,3 +1,5 @@
+# This repo has beeen transfered to https://github.com/mozhenling/dbtree and will be no longer maintained. 
+
 # DBtree Python Package for Machinery Fault Envolope Analysis  
 
 This repository provides the proposed dynamic bandit tree search method together with popular filters and various fault indexes to facilitate future studies of envelope analysis-based machinery fault diagnosis. More methods will be added as well in the future.  
